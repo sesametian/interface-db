@@ -1,0 +1,14 @@
+interface_data_store表中data_store存储格式：
+{
+	"request.register.1.username":"ccc",
+	"request.register.1.password":"sdfsdf23dd"
+}
+
+interface_test_case.rely_data数据依赖格式：
+["request.register.1.username","request.register.1.password"]
+
+interface_test_case.data_store数据依赖格式：
+{
+	"request":["username","password"],
+	"response":["code"]
+}
